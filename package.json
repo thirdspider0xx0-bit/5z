@@ -1,0 +1,32 @@
+{
+  "name": "5z-five",
+  "version": "1.0.0",
+  "description": "Fair launches with FIVE UI",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export",
+    "predeploy": "npm run export",
+    "deploy": "gh-pages -d out"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "@heroicons/react": "^2.0.18"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0",
+    "typescript": "^5.0.0",
+    "@types/react": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.0",
+    "eslint": "^8.40.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
